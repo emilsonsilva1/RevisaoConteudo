@@ -19,14 +19,15 @@ public class JavaApplication29 {
                do{
                    System.out.println("Digite a idade:");
                    id = sc.nextInt();
-               }while(id>0 && id<=130);
                     if(id>=18){
                         cont = cont + 1;
                     }
+               }while(id>0 && id<=130);
+                   
                       System.out.println("Informe o nome ou digite fim para sair:");
-                      nome = sc.nextLine();
+                      nome = sc.next();
            }
-        }while(nome.equals ("fim"));
+        }while(nome.equals("fim"));
        
          System.out.println(cont);
     } 
