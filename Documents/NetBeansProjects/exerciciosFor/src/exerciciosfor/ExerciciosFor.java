@@ -6,12 +6,14 @@ import java.util.Scanner;
 public class ExerciciosFor {
 
     public static void main(String[] args) {
-        /*Exerc 1 
+       
         int cont;
         Scanner leia = new Scanner(System.in);
-        for(cont=1;cont<=3; cont++){
+        for(cont=1;cont<=10; cont++){
             System.out.println(cont);
-        }*/
+        }
+        
+        
   }
 }
 
