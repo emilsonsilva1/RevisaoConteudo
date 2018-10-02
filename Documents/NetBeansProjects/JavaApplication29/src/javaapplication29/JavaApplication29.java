@@ -27,7 +27,7 @@ public class JavaApplication29 {
                       System.out.println("Informe o nome ou digite fim para sair:");
                       nome = sc.next();
            }
-        }while(nome.equals("fim"));
+        }while(!nome.equals("fim"));
        
          System.out.println(cont);
     } 
